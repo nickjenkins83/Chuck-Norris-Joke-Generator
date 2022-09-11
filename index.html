@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<html data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+  <title>Chuck Norris API AJAX Fun</title>
+</head>
+<body>
+  <div class="container">
+    <h2>Chuck Norris Joke Generator</h2>
+<form>
+  <div>
+    <label for="number">Number of Jokes</label>
+    <input type="number" id="number">
+  </div>
+    <div>
+      <button class="get-jokes">Get Jokes</button>
+    </div>
+  </div>
+</form>
+<ul class="jokes"></ul>
+  </div>
+  <div class="container">
+    <div class="card" id="img">
+      <center><img src="chuck.jpg" width="300" height="400" /></center>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
